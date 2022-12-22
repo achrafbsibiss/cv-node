@@ -1,0 +1,27 @@
+{
+  "name": "mysql-auth",
+  "version": "1.0.0",
+  "description": "auth with mysql and passport js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "alzaabi",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "connect-flash": "^0.1.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.3",
+    "html-pdf": "^3.0.1",
+    "mysql2": "^1.7.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^5.22.5"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}

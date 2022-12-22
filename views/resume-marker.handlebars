@@ -1,0 +1,192 @@
+{{!-- <div class="container">
+    <p class="text-primary">You are using {{theme}} theme</p>
+
+
+    <form action="/users/resume-marker" class="text-primary form" method="POST" >
+        
+        <div className="profile_section">
+          <p>Select Profile Picture :</p>
+          <img src="https://static.vecteezy.com/system/resources/previews/002/318/271/non_2x/user-profile-icon-free-vector.jpg" style="height={150} width={150}" alt="profile_pic" className="img_thumbnail"   />
+        </div>
+        <div className="chese_img">
+          <input className="form_controll" type="file" id="formFile" name="file"   />
+        </div>
+
+
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="">Full Name</label>
+                <input type="text" name="name" class="form-control">
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="">Phone Number</label>
+                <input type="text" name="phone" class="form-control">
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="">E-mail</label>
+                <input type="text" name="email" class="form-control">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="">Father's name</label>
+                <input type="text" name="f_name" class="form-control">
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="">Mother's Name</label>
+                <input type="text" name="m_name" class="form-control">
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="">Date of Birth</label>
+                <input type="text" name="birth" class="form-control">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">About me</label>
+            <textarea class="form-control" name="about" id="" rows="2"></textarea>
+        </div>
+        <h4>Expertise Area</h4>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="">Exp. 1</label>
+                <input type="text" name="exp_1" class="form-control">
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="">Exp. 2</label>
+                <input type="text" name="exp_2" class="form-control">
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="">Exp. 3</label>
+                <input type="text" name="exp_3" class="form-control">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="">It Skills</label>
+            <input type="text" placeholder="this whould be a comma seperated list" name="skill" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <select name="theme" id="" hidden>
+                <option value="<%= theme %>">{{theme }}  </option>
+            </select>            
+        </div>
+
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+</div> --}}
+
+
+<div class="container " >
+    <p class="text-primary">You are using {{theme}} theme</p>
+    <form action="/users/resume-marker" class="text-primary form" method="POST" >
+        <div className="profile_section">
+          <p>Select Profile Picture :</p>
+          <img src="https://static.vecteezy.com/system/resources/previews/002/318/271/non_2x/user-profile-icon-free-vector.jpg" alt="profile_pic" className="img_thumbnail"   />
+        </div>
+        <div className="chese_img">
+          <input className="form_controll" type="file" id="formFile" name="file"   />
+        </div>
+
+
+
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <h5 for="">Full Name</h5>
+                <input type="text" name="name" class="form-control">
+            </div>
+            <div class="col-md-4 mb-3">
+                <h5 for="">Phone Number</h5>
+                <input type="number" name="phone" class="form-control">
+            </div>
+            <div class="col-md-4 mb-3">
+                <h5 for="">E-mail</h5>
+                <input type="text" name="email" class="form-control">
+            </div>
+        </div>
+        
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <h5 for="">Father's name</h5>
+                <input type="text" name="f_name" class="form-control">
+            </div>
+            <div class="col-md-4 mb-3">
+                <h5 for="">Mother's Name</h5>
+                <input type="text" name="m_name" class="form-control">
+            </div>
+            <div class="col-md-4 mb-3">
+                <h5 for="">Date of Birth</h5>
+                <input type="date" name="birth" class="form-control">
+            </div>
+        </div>
+        <div class="form-group">
+            <h5 for="">About me</h5>
+            <textarea class="form-control" name="about" id="" rows="2"></textarea>
+        </div>
+        <h4>Expertise Area</h4>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <h5 for="">Exp. 1</h5>
+                <input type="text" name="exp_1" class="form-control">
+            </div>
+            <div class="col-md-4 mb-3">
+                <h5 for="">Exp. 2</h5>
+                <input type="text" name="exp_2" class="form-control">
+            </div>
+            <div class="col-md-4 mb-3">
+                <h5 for="">Exp. 3</h5>
+                <input type="text" name="exp_3" class="form-control">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <h5 for="">It Skills</h5>
+            <input type="text" placeholder="this whould be a comma seperated list" name="skill" class="form-control">
+        </div>
+
+        <h4>Expeience</h4>
+
+        <div class="col-md-4 mb-3">
+            <h5 for="">EDUCATIONAL INFORMATIONS</h5>
+            <span>first date</span>
+            <input type="date"  placeholder="the years your do" name="stage1" class="from-control" style="margin: 10px;" >
+            <span>first date</span>
+            <input type="date"  placeholder="the years your do" name="stage2" class="from-control" style="margin: 10px;">
+            <input type="text" placeholder="entre the education and your" name="education" class="from-control" style="margin: 10px;  padding: 10px 70px;">
+        </div>
+
+
+        <div class="col-md-4   d-flex flex-column ">
+            <h5 for="">your second experionce</h5>
+            <span>first date</span>
+            <input type="date"  placeholder="the years your do" name="stage_3" class="from-control" style="margin: 10;" >
+            <span>first date</span>
+            <input type="date"  placeholder="the years your do" name="stage_4" class="from-control" style="margin: 10px;">
+            <input type="text" placeholder="entre the education and your" name="clasic" class="from-control" style="margin: 10px;  padding: 10px 70px;">
+        </div>
+
+
+        
+        <div class="col-md-4 mb-3   d-flex flex-column ">
+            <h5 for="">your Key Skills</h5>
+            <span>first one</span>
+            <input type="text"  placeholder="the years your do" name="first_one" class="from-control" style="margin: 10;" >
+            <span>seconde one</span>
+            <input type="text"  placeholder="the years your do" name="seconde_one" class="from-control" style="margin: 10px;">
+            <span>third one</span>
+            <input type="text" placeholder="entre the education and your" name="third_one" class="from-control" style="margin: 10px;  padding: 10px 70px;">
+        </div>
+
+
+
+
+
+        <div class="form-group">
+            <select name="theme" id="" hidden>
+                <option value="<%= theme %>">{{theme }}</option>
+            </select>            
+        </div>
+
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+</div>
