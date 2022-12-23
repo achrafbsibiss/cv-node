@@ -80,7 +80,7 @@ const dynamicResume= (options, themeOptions)=>{
             <!-- SPELLING MISTAKE -->
             <div class="left-side d-inline-block">
                 <div class="profile-image">
-                    <p><img class="img-fluid" src="" alt=""> ${options.fille}</p>
+                <img class="img-fluid " style="width: 100px" src="https://static.vecteezy.com/system/resources/previews/002/318/271/non_2x/user-profile-icon-free-vector.jpg" alt="">
                 </div>
                 <div class="contact ml-2 mt-2">
                     <div class="heading-text text-uppercase">Contact</div>

@@ -127,14 +127,6 @@ router.get("/logout", (req, res) => {
 
 
 
-
-
-
-
-
-
-
-
 // choise your teamplet
 
 router.get('/resume-marker/:theme', (req, res, next) => {
